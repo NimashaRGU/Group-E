@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+    <body>
+        <h1> New User Registration Form </h1>
+        <form action="/action_page.php">
+
+            <label for="quantity"> STUDENT ID (RGU):</label>
+            <input type="number" id="quantity" name="quantity" maxlength="7"> <br><br>
+
+            <label for="fname">FIRST NAME:</label>
+            <input type="text" id="fname" name="fname" value="Eg. JOE"><br><br>
+
+            <label for="lname">LAST NAME:</label>
+            <input type="text" id="lname" name="lname" value="Eg. FERNANDO"><br><br>
+            
+            <label for="SEX">CHOOSE YOUR GENDER:</label>
+            <select name ="SEX" id="SEX">
+              <option value="MALE">MALE</option>
+              <option value="FEMALE">FEMALE</option>
+              <option value="OTHER">OTHER</option> <br><br>
+            </select><br><br>
+
+            <label for="SCHOOL OR DEPARTMENT">SCHOOLS AND DEPARTMENTS:</label>
+            <select name ="SCHOOLS AND DEPARTMENTS" id="SHOOLS AND DEPARTMENTS">
+              <option value="BUSINESS">ABERDEEN BUSINESS SCHOOL</option>
+              <option value="SCHOOL OF APPLIED SOCIAL STUDIES">SCHOOL OF APPLIED SOCIAL STUDIES</option>
+              <option value="SCHOOL OF COMPUTING">SCHOOL OF COMPUTING</option>
+              <option value="SCHOOL OF CREATIVE AND CULTURAL BUSINESS">SCHOOL OF CREATIVE AND CULTURAL BUSINESS</option>
+              <option value="SCHOOL OF ENGINEERING">SCHOOL OF ENGINEERING</option>
+              <option value="GRAY'S SCHOOL OF ART">GRAY'S SCHOOL OF ART</option>
+              <option value="SCHOOL OF HEALTH SCIENCES">SCHOOL OF HEALTH SCIENCES</option>
+              <option value="THE LAW SCHOOL">THE LAW SCHOOL</option>
+              <option value="SCHOOL OF NURSING, MIDWIFERY AND PARAMEDIC PRACTICE">SCHOOL OF NURSING, MIDWIFERY AND PARAMEDIC PRACTICE</option>
+              <option value="SCHOOL OF PHARMACY AND LIFE SCIENCES">SCHOOL OF PHARMACY AND LIFE SCIENCES</option>
+              <option value="THE SCOTT SUTHERLAND SCHOOL OF ARCHITECTURE AND BUILT ENVIRONMENT">THE SCOTT SUTHERLAND SCHOOL OF ARCHITECTURE AND BUILT ENVIRONMENT</option>
+              <option value="THE GRADUATE SCHOOL">THE GRADUATE SCHOOL</option>
+            </select><br><br>
+            
+            <label for="LEVEL OF EDUCATION">LEVEL OF EDUCATION:</label>
+            <select name ="LEVEL OF EDUCATION" id="LEVEL OF EDUCATION">
+              <option value="UNDERGRADUATE">UNDERGRADUATE</option>
+              <option value="POSTGRADUATE">POSTGRADUATE</option>
+              <option value="OTHER">OTHER</option> <br><br>
+            </select><br><br>
+
+            <label for="pwd">PASSWORD:</label>
+            <input type="PASSWORD" id="pwd" name="pwd"><br><br>
+
+            <label for="img">UPLOAD A PHOTO:</label>
+            <input type="file" id="img" name="img" accept="image/*"> 
+            
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form> 
+    </body>
+</html>
